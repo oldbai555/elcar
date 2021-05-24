@@ -1,0 +1,12 @@
+2021-05-18 16:37:47.457  WARN 4592 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:37:57.548  WARN 4592 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:38:07.643  WARN 4592 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:38:17.743  WARN 4592 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:38:27.843  WARN 4592 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:38:30.893  WARN 4592 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: Connection refused: no further information: oldbai.top/47.106.234.164:6379
+2021-05-18 16:38:50.844  WARN 4592 --- [lettuce-nioEventLoop-4-1] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:39:01.143  WARN 4592 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:39:11.740  WARN 4592 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 16:39:22.848  WARN 4592 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [oldbai.top:6379]: connection timed out: oldbai.top/47.106.234.164:6379
+2021-05-18 17:54:52.678  WARN 5332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s900ms47µs200ns).
+2021-05-18 18:10:24.713  WARN 18792 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s801ms195µs200ns).

@@ -1,0 +1,15 @@
+2021-05-14 14:01:49.742  INFO 15936 --- [main] com.atqidi.elcar.TextMapper              : Starting TextMapper on 老白的炸鸡堡垒 with PID 15936 (started by 老白 in C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar)
+2021-05-14 14:01:49.742  INFO 15936 --- [main] com.atqidi.elcar.TextMapper              : No active profile set, falling back to default profiles: default
+2021-05-14 14:01:51.086  INFO 15936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-14 14:01:51.086  INFO 15936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-14 14:01:51.153  INFO 15936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2021-05-14 14:01:51.578  INFO 15936 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.atqidi.elcar.config.RedisConfig$$EnhancerBySpringCGLIB$$1535980c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-14 14:01:55.125  INFO 15936 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-14 14:01:55.552  INFO 15936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-14 14:01:56.034  INFO 15936 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-14 14:01:56.081  INFO 15936 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-14 14:01:56.127  INFO 15936 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-14 14:01:56.316  INFO 15936 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getRoseByIdUsingGET_1
+2021-05-14 14:01:56.324  INFO 15936 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPhoneUsingGET_1
+2021-05-14 14:01:56.363  INFO 15936 --- [main] com.atqidi.elcar.TextMapper              : Started TextMapper in 7.396 seconds (JVM running for 9.245)
+2021-05-14 14:01:56.961  INFO 15936 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,122 @@
+2021-05-15 16:43:35.631  INFO 17132 --- [main] com.atqidi.elcar.ElcarApplication        : Starting ElcarApplication on 老白的炸鸡堡垒 with PID 17132 (C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar\target\classes started by 老白 in C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar)
+2021-05-15 16:43:35.647  INFO 17132 --- [main] com.atqidi.elcar.ElcarApplication        : No active profile set, falling back to default profiles: default
+2021-05-15 16:43:37.623  INFO 17132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-15 16:43:37.629  INFO 17132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-15 16:43:37.721  INFO 17132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 0 Redis repository interfaces.
+2021-05-15 16:43:38.319  INFO 17132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.atqidi.elcar.config.RedisConfig$$EnhancerBySpringCGLIB$$27d7bf6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-15 16:43:39.508  INFO 17132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-05-15 16:43:39.558  INFO 17132 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-15 16:43:39.565  INFO 17132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-15 16:43:39.568  INFO 17132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-15 16:43:39.986  INFO 17132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-15 16:43:39.986  INFO 17132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4227 ms
+2021-05-15 16:43:45.359  INFO 17132 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-15 16:43:45.585  INFO 17132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 16:43:46.059  INFO 17132 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8087"]
+2021-05-15 16:43:46.103  INFO 17132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-15 16:43:46.105  INFO 17132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-15 16:43:46.142  INFO 17132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-15 16:43:46.219  INFO 17132 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-15 16:43:46.568  INFO 17132 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getRoseByIdUsingGET_1
+2021-05-15 16:43:46.586  INFO 17132 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPhoneUsingGET_1
+2021-05-15 16:43:46.650  INFO 17132 --- [main] com.atqidi.elcar.ElcarApplication        : Started ElcarApplication in 12.437 seconds (JVM running for 18.416)
+2021-05-15 16:43:51.624  INFO 17132 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 16:43:51.625  INFO 17132 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-15 16:43:51.650  INFO 17132 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2021-05-15 17:26:57.905  INFO 17132 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:27:10.383  INFO 5644 --- [main] com.atqidi.elcar.ElcarApplication        : Starting ElcarApplication on 老白的炸鸡堡垒 with PID 5644 (C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar\target\classes started by 老白 in C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar)
+2021-05-15 17:27:10.413  INFO 5644 --- [main] com.atqidi.elcar.ElcarApplication        : No active profile set, falling back to default profiles: default
+2021-05-15 17:27:12.391  INFO 5644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-15 17:27:12.396  INFO 5644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-15 17:27:12.466  INFO 5644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2021-05-15 17:27:12.877  INFO 5644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.atqidi.elcar.config.RedisConfig$$EnhancerBySpringCGLIB$$e70c468d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-15 17:27:13.391  INFO 5644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-05-15 17:27:13.406  INFO 5644 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:27:13.407  INFO 5644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-15 17:27:13.408  INFO 5644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-15 17:27:13.548  INFO 5644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-15 17:27:13.548  INFO 5644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3022 ms
+2021-05-15 17:27:16.899  INFO 5644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-15 17:27:17.081  INFO 5644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:27:17.482  INFO 5644 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:27:17.521  INFO 5644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-15 17:27:17.523  INFO 5644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-15 17:27:17.556  INFO 5644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-15 17:27:17.629  INFO 5644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-15 17:27:17.912  INFO 5644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getRoseByIdUsingGET_1
+2021-05-15 17:27:17.928  INFO 5644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPhoneUsingGET_1
+2021-05-15 17:27:17.977  INFO 5644 --- [main] com.atqidi.elcar.ElcarApplication        : Started ElcarApplication in 8.858 seconds (JVM running for 11.445)
+2021-05-15 17:28:38.545  INFO 5644 --- [http-nio-8087-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 17:28:38.546  INFO 5644 --- [http-nio-8087-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-15 17:28:38.560  INFO 5644 --- [http-nio-8087-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-05-15 17:28:49.052  INFO 5644 --- [http-nio-8087-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-15 17:28:51.642  INFO 5644 --- [http-nio-8087-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-15 17:33:22.255  INFO 5644 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:33:22.280  INFO 5644 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-15 17:33:22.290  INFO 5644 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-15 17:33:36.678  INFO 17252 --- [main] com.atqidi.elcar.ElcarApplication        : Starting ElcarApplication on 老白的炸鸡堡垒 with PID 17252 (C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar\target\classes started by 老白 in C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar)
+2021-05-15 17:33:36.691  INFO 17252 --- [main] com.atqidi.elcar.ElcarApplication        : No active profile set, falling back to default profiles: default
+2021-05-15 17:33:39.473  INFO 17252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-15 17:33:39.481  INFO 17252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-15 17:33:39.572  INFO 17252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2021-05-15 17:33:40.106  INFO 17252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.atqidi.elcar.config.RedisConfig$$EnhancerBySpringCGLIB$$3111c737] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-15 17:33:40.775  INFO 17252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-05-15 17:33:40.795  INFO 17252 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:33:40.796  INFO 17252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-15 17:33:40.798  INFO 17252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-15 17:33:41.044  INFO 17252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-15 17:33:41.045  INFO 17252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4192 ms
+2021-05-15 17:33:46.827  INFO 17252 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-15 17:33:47.042  INFO 17252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:33:47.563  INFO 17252 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:33:47.614  INFO 17252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-15 17:33:47.617  INFO 17252 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-15 17:33:47.655  INFO 17252 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-15 17:33:47.749  INFO 17252 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-15 17:33:48.105  INFO 17252 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getRoseByIdUsingGET_1
+2021-05-15 17:33:48.128  INFO 17252 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPhoneUsingGET_1
+2021-05-15 17:33:48.192  INFO 17252 --- [main] com.atqidi.elcar.ElcarApplication        : Started ElcarApplication in 13.307 seconds (JVM running for 16.269)
+2021-05-15 17:33:51.637  INFO 17252 --- [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 17:33:51.638  INFO 17252 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-15 17:33:51.651  INFO 17252 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-05-15 17:34:07.138  INFO 17252 --- [http-nio-8087-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-15 17:34:09.708  INFO 17252 --- [http-nio-8087-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-15 17:35:36.222  INFO 17252 --- [http-nio-8087-exec-5] c.a.elcar.exception.ExceptionController  : null
+2021-05-15 17:37:01.467  INFO 17252 --- [http-nio-8087-exec-7] c.a.elcar.exception.ExceptionController  : null
+2021-05-15 17:37:41.932  INFO 17252 --- [http-nio-8087-exec-8] c.a.elcar.exception.ExceptionController  : null
+2021-05-15 17:37:51.489  INFO 17252 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:37:51.521  INFO 17252 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-15 17:37:51.536  INFO 17252 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-15 17:38:03.503  INFO 11744 --- [main] com.atqidi.elcar.ElcarApplication        : Starting ElcarApplication on 老白的炸鸡堡垒 with PID 11744 (C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar\target\classes started by 老白 in C:\Users\老白\Desktop\大三下学期\移动应用开发\elcar)
+2021-05-15 17:38:03.510  INFO 11744 --- [main] com.atqidi.elcar.ElcarApplication        : No active profile set, falling back to default profiles: default
+2021-05-15 17:38:06.070  INFO 11744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-15 17:38:06.075  INFO 11744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-15 17:38:06.158  INFO 11744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2021-05-15 17:38:06.683  INFO 11744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.atqidi.elcar.config.RedisConfig$$EnhancerBySpringCGLIB$$7cbd0ac1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-15 17:38:07.298  INFO 11744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2021-05-15 17:38:07.316  INFO 11744 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:38:07.318  INFO 11744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-15 17:38:07.318  INFO 11744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-15 17:38:07.485  INFO 11744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-15 17:38:07.487  INFO 11744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3869 ms
+2021-05-15 17:38:11.451  INFO 11744 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-15 17:38:11.648  INFO 11744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:38:12.115  INFO 11744 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8087"]
+2021-05-15 17:38:12.163  INFO 11744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-15 17:38:12.165  INFO 11744 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-15 17:38:12.202  INFO 11744 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-15 17:38:12.288  INFO 11744 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-15 17:38:12.638  INFO 11744 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getRoseByIdUsingGET_1
+2021-05-15 17:38:12.659  INFO 11744 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPhoneUsingGET_1
+2021-05-15 17:38:12.718  INFO 11744 --- [main] com.atqidi.elcar.ElcarApplication        : Started ElcarApplication in 10.783 seconds (JVM running for 13.854)
+2021-05-15 17:38:59.665  INFO 11744 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 17:38:59.666  INFO 11744 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-15 17:38:59.691  INFO 11744 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2021-05-15 17:39:00.030  INFO 11744 --- [http-nio-8087-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-15 17:39:02.684  INFO 11744 --- [http-nio-8087-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-15 17:39:04.639  INFO 11744 --- [http-nio-8087-exec-1] c.a.elcar.config.MyMetaObjectHandler     : start update fill ....
+2021-05-15 17:39:55.660  INFO 11744 --- [http-nio-8087-exec-5] c.a.elcar.config.MyMetaObjectHandler     : start update fill ....
+2021-05-15 17:40:32.627  INFO 11744 --- [http-nio-8087-exec-6] c.a.elcar.config.MyMetaObjectHandler     : start insert fill ....
+2021-05-15 17:43:07.585  INFO 11744 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-15 17:43:07.622  INFO 11744 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-15 17:43:07.638  INFO 11744 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

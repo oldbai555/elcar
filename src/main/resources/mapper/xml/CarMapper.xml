@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atqidi.elcar.mapper.CarMapper">
+
+
+    <resultMap id="car" type="com.atqidi.elcar.entity.Car">
+        <id property="id" column="id"></id>
+        <result property="carName" column="car_name"></result>
+        <result property="carTypeId" column="car_type_id"></result>
+        <result property="userId" column="user_id"></result>
+        <association property="carType" javaType="com.atqidi.elcar.entity.CarType">
+            <!--            <result property="id" column="car_type_id"></result>-->
+            <result property="typeName" column="type_name"></result>
+        </association>
+    </resultMap>
+
+    <select id="getAllCar" resultMap="car">
+        select
+            c.id as id,
+            c.car_name as car_name,
+            c.car_type_id as car_type_id,
+            c.user_id as user_id,
+            t.type_name as type_name
+        from
+            el_car c,el_car_type t
+        where
+            c.car_type_id = t.id ;
+    </select>
+    <select id="selectPageVo" resultMap="car">
+        select
+            c.id as id,
+            c.car_name as car_name,
+            c.car_type_id as car_type_id,
+            c.user_id as user_id,
+            t.type_name as type_name
+        from
+            el_car c,el_car_type t
+        where
+            c.car_type_id = t.id
+    </select>
+    <select id="getCarById" resultMap="car">
+        select
+            c.id as id,
+            c.car_name as car_name,
+            c.car_type_id as car_type_id,
+            c.user_id as user_id,
+            t.type_name as type_name
+        from
+            el_car c,el_car_type t
+        where
+            c.car_type_id = t.id
+            and
+            c.id = #{id}
+    </select>
+
+
+    <select id="getOneCarByName" resultMap="car">
+        select
+            c.id as id,
+            c.car_name as car_name,
+            c.car_type_id as car_type_id,
+            c.user_id as user_id,
+            t.type_name as type_name
+        from
+            el_car c,el_car_type t
+        where
+            c.car_type_id = t.id
+            and
+            c.car_name = #{name}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: elcar
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://oldbai.top:3306/el_pile?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    default-property-inclusion: ALWAYS
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+server:
+  port: 8087
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      logic-delete-field: isdelete
+
+
+
+

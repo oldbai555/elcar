@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atqidi.elcar.mapper.UserMapper">
+
+
+    <resultMap id="carMap" type="com.atqidi.elcar.entity.Car">
+        <id property="id" column="cid"></id>
+        <result property="carName" column="car_name"></result>
+        <result property="carTypeId" column="car_type_id"></result>
+        <result property="userId" column="user_id"></result>
+        <association property="carType" javaType="com.atqidi.elcar.entity.CarType">
+            <!--            <result property="id" column="car_type_id"></result>-->
+            <result property="typeName" column="type_name"></result>
+        </association>
+    </resultMap>
+    <!--在 resultMap 中，
+    通过 collection 节点来描述集合的映射关系。
+    在映射时，会自动将一的一方数据集合并，然后将多的一方放到集合中，
+    能实现这一点，靠的就是 id 属性。-->
+    <resultMap id="userMap" type="com.atqidi.elcar.entity.User">
+        <id property="id" column="id"></id>
+        <result property="phone" column="uphone"></result>
+        <result property="userIdCard" column="user_id_card"></result>
+        <result property="rose" column="rname"></result>
+        <collection property="carList" resultMap="carMap" ofType="com.atqidi.elcar.entity.Car">
+        </collection>
+    </resultMap>
+
+    <select id="findAllUser" resultMap="userMap">
+        select
+            u.id as id,
+            u.phone as uphone,
+            u.user_id_card as user_id_card,
+            r.id as rid,
+            r.name as rname
+        from
+            el_user u,
+            el_rose r
+        where
+             u.role_id = r.id
+    </select>
+    <select id="findByPhone" resultMap="userMap">
+        select
+            u.id as id,
+            u.phone as uphone,
+            u.user_id_card as user_id_card,
+            r.id as rid,
+            r.name as rname,
+            car.id as cid,
+            car.car_name as car_name,
+            car.car_type_id as car_type_id,
+            car.user_id as user_id,
+            cartype.type_name as type_name
+        from
+            el_user u,
+            el_rose r,
+            el_car car,
+            el_car_type cartype
+        where
+            u.id = car.user_id
+            and
+            car.car_type_id = cartype.id
+            and
+            u.role_id = r.id
+            and
+            u.phone = #{phone}
+
+    </select>
+    <select id="findByUserIdCard" resultType="com.atqidi.elcar.entity.User">
+
+    </select>
+</mapper>

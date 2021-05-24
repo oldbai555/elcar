@@ -1,0 +1,1 @@
+2021-05-10 12:01:42.784 ERROR 2828 --- [http-nio-8087-exec-2] c.a.elcar.controller.UserController      : org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
