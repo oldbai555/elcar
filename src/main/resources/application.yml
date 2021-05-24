@@ -2,9 +2,9 @@ spring:
   application:
     name: elcar
   datasource:
-    username: root
-    password: root
-    url: jdbc:mysql://oldbai.top:3306/el_pile?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&characterEncoding=utf-8
+    username:
+    password:
+    url: jdbc:mysql:///el_pile?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
   jackson:
     default-property-inclusion: ALWAYS
